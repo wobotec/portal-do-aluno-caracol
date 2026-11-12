@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar | Portal do Aluno - Caracol</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body class="gray-bg">
+
+<div class="login-wrapper">
+    <div class="login-aside">
+        <div style="max-width:440px">
+            <div style="font-size:28px;font-weight:700;letter-spacing:1px;margin-bottom:28px;">
+                <i class="fa fa-graduation-cap"></i>&nbsp; PORTAL DO ALUNO
+            </div>
+            <h2 style="font-weight:300;line-height:1.4">Tudo o que você precisa para acompanhar sua jornada acadêmica em um só lugar.</h2>
+            <p style="opacity:.85;margin-top:20px">Notas, presença, calendário de aulas, financeiro, vagas de estágio e comunicação com professores &mdash; integrado ao Sistema Caracol.</p>
+
+            <div style="margin-top:50px;display:flex;gap:36px">
+                <div>
+                    <div style="font-size:22px;font-weight:700">17</div>
+                    <div style="font-size:12px;opacity:.75;text-transform:uppercase;letter-spacing:.5px">Módulos integrados</div>
+                </div>
+                <div>
+                    <div style="font-size:22px;font-weight:700">24/7</div>
+                    <div style="font-size:12px;opacity:.75;text-transform:uppercase;letter-spacing:.5px">Acesso disponível</div>
+                </div>
+                <div>
+                    <div style="font-size:22px;font-weight:700">100%</div>
+                    <div style="font-size:12px;opacity:.75;text-transform:uppercase;letter-spacing:.5px">Dados sincronizados</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="login-form-side">
+        <div style="width:100%;max-width:340px;padding:40px 20px">
+            <h3 class="font-bold m-b-md">Acessar o Portal</h3>
+            <p class="text-muted small m-b-lg">Use suas credenciais do Sistema Caracol para entrar.</p>
+
+            <form onsubmit="window.location.href='dashboard.html'; return false;">
+                <div class="form-group">
+                    <label class="control-label small">Matrícula ou e-mail institucional</label>
+                    <input type="text" class="form-control" placeholder="2024104532 ou nome@aluno.caracol.edu.br" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label small">Senha</label>
+                    <input type="password" class="form-control" placeholder="••••••••" required>
+                </div>
+                <div class="checkbox i-checks m-b-md">
+                    <label><input type="checkbox"> Manter conectado</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                <div class="text-center m-t-md">
+                    <a href="#" class="small">Esqueci minha senha</a>
+                </div>
+            </form>
+            <hr>
+            <p class="text-center small text-muted">Precisa de ajuda para acessar? Fale com a secretaria acadêmica.</p>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
